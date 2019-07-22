@@ -276,7 +276,7 @@ Let's create setting files.
 
 4. Convert geoJSON(collection.json) to TopoJSON
 
-    [Mapshaper](https://mapshaper.org/) can convert a geoJSON file to a TopoJSON file. Use it to get geoJSON files. 
+    [Mapshaper](https://mapshaper.org/) can convert a geoJSON file to a TopoJSON file. Use it to get TopoJSON files. 
 
     Please note that before you import geoJSON file you have to change its name to **collection.json**. It affects to TopoJSON property which DataV specifies.
     * Create TopoJSON for world level and country level
@@ -337,7 +337,10 @@ Let's create setting files.
         'use strict'
 
         /** DEFINITION */
-        /** The adcodes of city level are defined automatically with alphabetical order. */
+        /**
+         * You need to define country level adcodes.
+         * The adcodes for city level are defined automatically with alphabetical order.
+         */
 
         const SOUTHEAST_ASIA = {
           'Southeast Asia': 1000000,  // root (special)
