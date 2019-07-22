@@ -1,7 +1,10 @@
 'use strict'
 
 /** DEFINITION */
-/** The adcodes of city level are defined automatically with alphabetical order. */
+/**
+ * You need to define country level adcodes.
+ * The adcodes for city level are defined automatically with alphabetical order.
+ * */
 
 const SOUTHEAST_ASIA = {
   'Southeast Asia': 1000000,  // root (special)
